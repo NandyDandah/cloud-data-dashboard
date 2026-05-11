@@ -1,0 +1,11 @@
+date,region,product,units_sold,unit_price,sales_channel
+2025-01-05,London,Laptop,12,850,Online
+2025-01-07,Manchester,Tablet,20,300,Retail
+2025-01-10,Birmingham,Monitor,15,180,Online
+2025-01-12,London,Keyboard,35,45,Retail
+2025-01-15,Leeds,Laptop,8,850,Online
+2025-01-18,Manchester,Monitor,22,180,Retail
+2025-01-20,Birmingham,Tablet,18,300,Online
+2025-01-22,London,Mouse,50,25,Retail
+2025-01-25,Leeds,Keyboard,40,45,Online
+2025-01-28,Manchester,Laptop,10,850,Retail
