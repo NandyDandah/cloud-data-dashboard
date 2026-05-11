@@ -13,7 +13,7 @@ from src.analysis import (
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
-DATA_FILE = BASE_DIR / "data" / "sales_data.csv""
+DATA_FILE = BASE_DIR / "data" / "sales_data.csv"
 
 df = load_data(DATA_FILE)
 
