@@ -3,7 +3,7 @@ import plotly.express as px
 st.set_page_config(page_title="Cloud Data Dashboard", layout="wide")
 st.title("Cloud Data Dashboard")
 st.write("A beginner-friendly business intelligence dashboard.")
-from src.analysis import (
+from analysis import (
     load_data,
     get_total_revenue,
     get_sales_by_region,
