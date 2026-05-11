@@ -1,9 +1,37 @@
 import streamlit as st
 import plotly.express as px
 st.set_page_config(page_title="Cloud Data Dashboard", layout="wide")
+with st.sidebar:
+    st.title("🔐 Cyber Risk Toolkit")
+
+    st.header("About")
+
+    st.write("""
+    This tool helps assess cybersecurity risks by evaluating:
+
+    - Organisational assets
+    - Threats
+    - Vulnerabilities
+    - Likelihood
+    - Impact
+
+    It calculates a risk score, classifies risk severity,
+    and recommends mitigation actions.
+    """)
+
+    st.divider()
+
+    st.header("Risk Scoring")
+
+    st.write("Risk Score = Likelihood × Impact")
+
+    st.table({
+        "Score": ["1–5", "6–11", "12–19", "20–25"],
+        "Level": ["Low", "Medium", "High", "Critical"]
+    })
 st.title("Cloud Data Dashboard")
 st.write("A beginner-friendly business intelligence dashboard.")
-from src.analysis import (
+from analysis import (
     load_data,
     get_total_revenue,
     get_sales_by_region,
